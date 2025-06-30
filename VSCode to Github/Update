@@ -1,0 +1,25 @@
+----- Terminal > New Terminal > + and select powershell > Add this script:
+
+PS E:\Bookmarks\SQL_Bookmarks> git add .
+PS E:\Bookmarks\SQL_Bookmarks>  git commit -m "new changes statements"
+[main 5f81175] new changes statements
+ 9 files changed, 60 insertions(+), 1 deletion(-)
+ create mode 100644 Statements/05_like.sql
+ create mode 100644 Statements/06_and, or, not.sql
+ create mode 100644 Statements/07_limit.sql
+ create mode 100644 Statements/08_null.sql
+ create mode 100644 Statements/09_min_max.sql
+PS E:\Bookmarks\SQL_Bookmarks> git push origin main
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (12/12), 1.89 KiB | 113.00 KiB/s, done.
+Total 12 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/galobel1895/SQL_Bookmarks.git
+   3f24895..5f81175  main -> main
+PS E:\Bookmarks\SQL_Bookmarks> 
+
+
+DONE!
