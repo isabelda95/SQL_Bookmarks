@@ -1,0 +1,23 @@
+---- Add (stage) commit. The repository connection remains intact.
+
+Terminal > New Terminal > + powershell > Write sript
+
+PS E:\Bookmarks\SQL_Bookmarks> git add .
+PS E:\Bookmarks\SQL_Bookmarks> git commit -m "Add new folder"
+[main 752247a] Add new folder
+ 3 files changed, 25 insertions(+)
+ create mode 100644 VSCode to Github/Connect repository
+ create mode 100644 VSCode to Github/Update
+ create mode 100644 VSCode to Github/When you create a new folder
+PS E:\Bookmarks\SQL_Bookmarks> git push
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 906 bytes | 113.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pacDelta compression using up to 8 threads
+Writing objects: 100% (5/5), 906 bytes | 113.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/galobel1895/SQL_Bookmarks.git
+   5f81175..752247a  main -> main
+PS E:\Bookmarks\SQL_Bookmarks>
+
+DONE!!
