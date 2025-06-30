@@ -1,0 +1,1 @@
+SELECT AVG(age) FROM users_table_exmp;
