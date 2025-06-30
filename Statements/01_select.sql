@@ -1,3 +1,5 @@
+------ EXTRACT DATA FROM A DATABASE ------
+
 SELECT * FROM users_table_exmp;
 
 SELECT name FROM users_table_exmp;

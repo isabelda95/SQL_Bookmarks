@@ -1,3 +1,5 @@
+----- FILTER RECORDS BASED ON A CONDITION -----
+
 SELECT * FROM users_table_exmp WHERE age =15;
 
 SELECT name FROM users WHERE age =15;
